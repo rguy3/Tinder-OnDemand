@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302F09031E3995D800E004FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F09021E3995D800E004FF /* AppDelegate.swift */; };
+		302F09051E3995D800E004FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F09041E3995D800E004FF /* ViewController.swift */; };
+		302F09081E3995D800E004FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302F09061E3995D800E004FF /* Main.storyboard */; };
+		302F090A1E3995D800E004FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302F09091E3995D800E004FF /* Assets.xcassets */; };
+		302F090D1E3995D800E004FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302F090B1E3995D800E004FF /* LaunchScreen.storyboard */; };
+		302F091A1E39A2CB00E004FF /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F09191E39A2CB00E004FF /* CardCell.swift */; };
+		302F091C1E39B4CD00E004FF /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F091B1E39B4CD00E004FF /* Date.swift */; };
+		302F091F1E39C17800E004FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F091E1E39C17800E004FF /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		302F08FF1E3995D800E004FF /* tinder_ondemand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinder_ondemand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302F09021E3995D800E004FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302F09041E3995D800E004FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		302F09071E3995D800E004FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302F09091E3995D800E004FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302F090C1E3995D800E004FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302F090E1E3995D800E004FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302F09191E39A2CB00E004FF /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		302F091B1E39B4CD00E004FF /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		302F091E1E39C17800E004FF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302F08FC1E3995D800E004FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302F08F61E3995D800E004FF = {
+			isa = PBXGroup;
+			children = (
+				302F09011E3995D800E004FF /* tinder_ondemand */,
+				302F09001E3995D800E004FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302F09001E3995D800E004FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302F08FF1E3995D800E004FF /* tinder_ondemand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302F09011E3995D800E004FF /* tinder_ondemand */ = {
+			isa = PBXGroup;
+			children = (
+				302F091D1E39C16300E004FF /* Util */,
+				302F09141E39A07500E004FF /* Model */,
+				302F09151E39A07A00E004FF /* View */,
+				302F09161E39A07E00E004FF /* Controller */,
+				302F09021E3995D800E004FF /* AppDelegate.swift */,
+				302F09041E3995D800E004FF /* ViewController.swift */,
+				302F09061E3995D800E004FF /* Main.storyboard */,
+				302F09091E3995D800E004FF /* Assets.xcassets */,
+				302F090B1E3995D800E004FF /* LaunchScreen.storyboard */,
+				302F090E1E3995D800E004FF /* Info.plist */,
+			);
+			path = tinder_ondemand;
+			sourceTree = "<group>";
+		};
+		302F09141E39A07500E004FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				302F091B1E39B4CD00E004FF /* Date.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		302F09151E39A07A00E004FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				302F09191E39A2CB00E004FF /* CardCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		302F09161E39A07E00E004FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		302F091D1E39C16300E004FF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				302F091E1E39C17800E004FF /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302F08FE1E3995D800E004FF /* tinder_ondemand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302F09111E3995D800E004FF /* Build configuration list for PBXNativeTarget "tinder_ondemand" */;
+			buildPhases = (
+				302F08FB1E3995D800E004FF /* Sources */,
+				302F08FC1E3995D800E004FF /* Frameworks */,
+				302F08FD1E3995D800E004FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinder_ondemand;
+			productName = tinder_ondemand;
+			productReference = 302F08FF1E3995D800E004FF /* tinder_ondemand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302F08F71E3995D800E004FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Blu;
+				TargetAttributes = {
+					302F08FE1E3995D800E004FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GMK26497R9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 302F08FA1E3995D800E004FF /* Build configuration list for PBXProject "tinder_ondemand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 302F08F61E3995D800E004FF;
+			productRefGroup = 302F09001E3995D800E004FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302F08FE1E3995D800E004FF /* tinder_ondemand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302F08FD1E3995D800E004FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302F090D1E3995D800E004FF /* LaunchScreen.storyboard in Resources */,
+				302F090A1E3995D800E004FF /* Assets.xcassets in Resources */,
+				302F09081E3995D800E004FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302F08FB1E3995D800E004FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302F091F1E39C17800E004FF /* Constants.swift in Sources */,
+				302F091A1E39A2CB00E004FF /* CardCell.swift in Sources */,
+				302F09051E3995D800E004FF /* ViewController.swift in Sources */,
+				302F09031E3995D800E004FF /* AppDelegate.swift in Sources */,
+				302F091C1E39B4CD00E004FF /* Date.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		302F09061E3995D800E004FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302F09071E3995D800E004FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		302F090B1E3995D800E004FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302F090C1E3995D800E004FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302F090F1E3995D800E004FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		302F09101E3995D800E004FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		302F09121E3995D800E004FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GMK26497R9;
+				INFOPLIST_FILE = tinder_ondemand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rguydesign.tinder-ondemand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		302F09131E3995D800E004FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GMK26497R9;
+				INFOPLIST_FILE = tinder_ondemand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rguydesign.tinder-ondemand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302F08FA1E3995D800E004FF /* Build configuration list for PBXProject "tinder_ondemand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302F090F1E3995D800E004FF /* Debug */,
+				302F09101E3995D800E004FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302F09111E3995D800E004FF /* Build configuration list for PBXNativeTarget "tinder_ondemand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302F09121E3995D800E004FF /* Debug */,
+				302F09131E3995D800E004FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302F08F71E3995D800E004FF /* Project object */;
+}
